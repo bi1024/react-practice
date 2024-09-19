@@ -1,8 +1,14 @@
 import type { MenuProps } from "antd";
 import { Menu } from "antd";
 
-type MenuItem = Required<MenuProps>["items"][number]; //stolen from the ant design page
-const NavMenu = ({ items }) => {
+type MenuItem = Required<MenuProps>["items"][number];
+//stolen from the ant design page
+
+interface NavMenuProps {
+  items: MenuItem[];
+}
+
+const NavMenu: React.FC<NavMenuProps> = ({ items }: NavMenuProps) => {
   return (
     <Menu
       // onClick={onClick}

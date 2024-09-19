@@ -1,7 +1,7 @@
-import {  Flex, Input } from "antd";
+import { Flex, Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 
-const SearchBar = () => {
+const SearchBar: React.FC = () => {
   return (
     <Flex justify="space-between" align="center">
       <span>Premium Quality Product</span>

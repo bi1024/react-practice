@@ -1,7 +1,8 @@
 import { Checkbox } from "antd";
 import type { CheckboxProps } from "antd";
 import type { MenuProps } from "antd";
-import { Button, Dropdown,  Flex } from "antd";
+import { Button, Dropdown, Flex } from "antd";
+import ProductInfoCard from "./ProductInfoCard";
 
 const onChange: CheckboxProps["onChange"] = (e) => {
   console.log(`checked = ${e.target.checked}`);
@@ -51,11 +52,11 @@ const ProductsPanel = () => {
     <>
       <Flex justify="space-between" align="center">
         <Checkbox onChange={onChange}>Checkbox</Checkbox>
-
         <Dropdown menu={{ items }} placement="bottom">
           <Button>bottom</Button>
         </Dropdown>
       </Flex>
+      <ProductInfoCard />
     </>
   );
 };

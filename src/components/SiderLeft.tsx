@@ -51,15 +51,15 @@ const siderStyle: React.CSSProperties = {
   textAlign: "center",
   lineHeight: "120px",
   color: "#fff",
-  backgroundColor: "#1677ff",
+  backgroundColor: "white",
 };
 const headerStyle: React.CSSProperties = {
   textAlign: "center",
-  color: "#fff",
+  color: "black",
   height: "5rem",
   // paddingInline: 48,
   // lineHeight: "64px",
-  backgroundColor: "#4096ff",
+  backgroundColor: "white",
 };
 
 const SiderLeft = () => {

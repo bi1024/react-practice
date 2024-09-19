@@ -11,11 +11,11 @@ import ProductsPanel from "./components/ProductsPanel";
 const headerStyle: React.CSSProperties = {
   textAlign: "center",
   alignContent: "center",
-  color: "#fff",
+  color: "black",
   height: "5rem",
   // paddingInline: 48,
   // lineHeight: "64px",
-  backgroundColor: "#4096ff",
+  backgroundColor: "white",
 };
 
 const contentStyle: React.CSSProperties = {
@@ -23,14 +23,14 @@ const contentStyle: React.CSSProperties = {
   minHeight: 120,
   lineHeight: "120px",
   color: "#fff",
-  backgroundColor: "#0958d9",
+  backgroundColor: "white",
 };
 
 const siderStyle: React.CSSProperties = {
   textAlign: "center",
   lineHeight: "120px",
   color: "#fff",
-  backgroundColor: "#1677ff",
+  backgroundColor: "white",
 };
 
 const layoutStyle = {
