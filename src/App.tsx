@@ -1,13 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 // import { DatePicker } from "antd";
 // import DatePicker from "antd";
 import { Layout } from "antd";
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Sider, Content } = Layout;
 
-import { StarOutlined, StarFilled, StarTwoTone } from "@ant-design/icons";
 import SiderLeft from "./components/SiderLeft";
 import SearchBar from "./components/SearchBar";
 import ProductsPanel from "./components/ProductsPanel";
@@ -35,12 +31,6 @@ const siderStyle: React.CSSProperties = {
   lineHeight: "120px",
   color: "#fff",
   backgroundColor: "#1677ff",
-};
-
-const footerStyle: React.CSSProperties = {
-  textAlign: "center",
-  color: "#fff",
-  backgroundColor: "#4096ff",
 };
 
 const layoutStyle = {

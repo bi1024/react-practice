@@ -1,4 +1,4 @@
-import { Button, Flex, Input } from "antd";
+import {  Flex, Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 
 const SearchBar = () => {

@@ -1,6 +1,5 @@
 import { Layout } from "antd";
 import type { MenuProps } from "antd";
-import { Menu } from "antd";
 import { AppstoreOutlined, MailOutlined } from "@ant-design/icons";
 import NavMenu from "./NavMenu";
 

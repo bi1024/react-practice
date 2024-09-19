@@ -1,7 +1,7 @@
 import { Checkbox } from "antd";
 import type { CheckboxProps } from "antd";
 import type { MenuProps } from "antd";
-import { Button, Dropdown, Space, Flex } from "antd";
+import { Button, Dropdown,  Flex } from "antd";
 
 const onChange: CheckboxProps["onChange"] = (e) => {
   console.log(`checked = ${e.target.checked}`);
